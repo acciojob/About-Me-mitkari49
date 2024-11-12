@@ -1,1 +1,32 @@
+#container{
+	width:800px;
+	display:flex;
+	border:1px solid gray;
+	box-shadow:1px 1px 5px 1px gray, -1px 0px 5px 1px gray;
+}
+.left-container{
+	margin:20px;
+	width:500px;
+}
+.left-container img{
+	height:200px;
+	width:180px;
+}
+.info{
+	display:flex;
+	align-items:start;
+	justify-content:space-between;
+	gap:5rem;
+}
 
+.sub{
+	display:flex;
+	gap:1rem;
+}
+input[type="range"]{
+	width:300px;
+	border:none;
+}
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+}
